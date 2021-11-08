@@ -1,0 +1,28 @@
+header {
+    height: 180px;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(50, 164, 235);
+}
+
+#logo {
+    width: 250px;
+    object-position: left center;
+}
+
+#main-title {
+	font-size: 3rem;
+}
+
+address {
+	color: grey;
+    font-style: normal;
+}
+
+#address-homepage-link {
+	font-size: 1.1rem;
+}
+
+#address-date {
+	font-size: 0.7rem;
+}
+
