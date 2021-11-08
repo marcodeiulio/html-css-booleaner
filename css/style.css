@@ -26,3 +26,19 @@ address {
 	font-size: 0.7rem;
 }
 
+ table {
+	border-collapse: collapse;
+  }
+
+thead {
+	background-color: rgb(74, 176, 240);
+	color: white;
+	text-align: left;
+}
+ .short-column {
+	 width: 15em;
+}
+
+.colored-row {
+	background-color: lightblue;
+}
