@@ -1,36 +1,45 @@
-header {
-    height: 180px;
-	margin-top: -8px;
-	margin-left: -8px;
-    background-image: url(../img/pattern.png);
-    background-color: rgb(44, 120, 207);
-}
+/* global */
 
 figure {
 	margin: 0;
 }
 
-h1 {
-	margin: 20px 0px 0px 0px;
+p {
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
 }
 
-ul {
-	padding-left: 1em;
-}
+/* header */
 
 .logo {
-    width: 350px;
+	width: 350px;
 	position: relative;
 	top: 70px;
 }
 
+header {
+	height: 180px;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(44, 120, 207);
+}	
+
+/* article */
+	/* title */
+h1 {
+	margin: 20px 0px 0px 0px;
+}		
+
 #main-title {
 	font-size: 3rem;
-}
-
+}	
+	/* address */
 address {
 	color: grey;
-    font-style: normal;
+	font-style: normal;
+	margin-bottom: 20px;
 }
 
 #address-homepage-link {
@@ -42,10 +51,18 @@ address {
 #address-date {
 	font-size: 0.8rem;
 }
+	/* ul */
+ul {
+	padding-left: 1em;
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
+}	
 
- table {
+	/* table */
+
+table {
 	border-collapse: collapse;
-  }
+}
 
 thead {
 	background-color: rgb(74, 176, 240);
@@ -58,4 +75,29 @@ thead {
 
 .colored-row {
 	background-color: lightblue;
+}
+
+	/* Aside */
+
+h2 {
+	color: white;
+	padding: 5%;
+}
+
+#aside-recommendations {
+	color: lightslategray;
+}
+
+.recommendation {
+	width: 312px;
+	height: 208px;
+}
+
+.first {
+	background-image: url(/img/monitor.jpg);
+	background-size: contain;
+}
+
+.second {
+	background-image: url(/img/graph.jpg);
 }
