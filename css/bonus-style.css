@@ -99,10 +99,10 @@ h2 {
 }
 
 .first {
-	background-image: url(/img/monitor.jpg);
+	background-image: url(../img/monitor.jpg);
 	background-size: contain;
 }
 
 .second {
-	background-image: url(/img/graph.jpg);
+	background-image: url(../img/graph.jpg);
 }
